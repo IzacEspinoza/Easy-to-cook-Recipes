@@ -19,3 +19,29 @@
     font-family: 'Helvetica', 'Cursive', sans-serif;
     font-weight: 200;
 }
+.container{
+    margin: 20px;
+    padding: 10px;
+    border: 2px dotted black;
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+#recipe-list{
+    list-style: none;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.recipe-card{
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+    padding: 5px;
+}
+.recipe-card img{
+    width: 100%;
+    height: auto;
+}
